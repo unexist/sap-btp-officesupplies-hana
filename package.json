@@ -2,26 +2,27 @@
   "name": "HC_OFF_SUPPLIES",
   "version": "1.0.0",
   "description": "A simple CAP project.",
+  "author": "christoph@unexist.dev",
+  "license": "Apache-2.0",
   "repository": "<Add your repository here>",
-  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=16"
+  },
   "private": true,
   "dependencies": {
-    "@sap/cds": "^6",
-    "@sap/hdbext": "^7.6.6",
+    "@sap/cds": "^6.8.4",
+    "@sap/hdbext": ">7",
     "express": "^4",
-    "hdb": "^0.19.0",
-    "sap-hdbext-promisfied": "^2.202208.1"
+    "hdb": ">0.19.0",
+    "sap-hdbext-promisfied": "^2.202308.1"
   },
   "devDependencies": {
-    "@sap/ux-specification": "^1.102.9",
+    "@sap/ux-specification": "^1.108.12",
     "sqlite3": "^5.0.4"
   },
   "scripts": {
     "start": "cds run",
     "watch-products": "cds watch --open products/webapp/index.html?sap-ui-xx-viewCache=false"
-  },
-  "engines": {
-    "node": "^16.15"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
