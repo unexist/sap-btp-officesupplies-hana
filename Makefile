@@ -7,3 +7,6 @@ build:
 
 deploy:
 	cf deploy gen/mta.tar
+
+deploy-hana:
+	cds deploy --to hana
