@@ -6,7 +6,7 @@
   "license": "Apache-2.0",
   "repository": "https://github.com/unexist/sap-btp-officesupplies-hana.git",
   "engines": {
-    "node": ">=16"
+    "node": ">18.0.0"
   },
   "private": true,
   "dependencies": {
