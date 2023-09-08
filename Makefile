@@ -1,3 +1,6 @@
+install:
+	npm install
+
 update:
 	npm update
 	npm update --package-lock-only
@@ -10,3 +13,6 @@ deploy:
 
 deploy-hana:
 	cds deploy --to hana
+
+serve:
+	cds serve
