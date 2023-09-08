@@ -1,21 +1,19 @@
 {
-  "xsappname": "HC_OFF_SUPPLIES",
-  "tenant-mode": "dedicated",
   "scopes": [
     {
       "name": "$XSAPPNAME.Vendor",
-      "description": "Supplier"
+      "description": "Vendor"
     },
     {
       "name": "$XSAPPNAME.ProcurementManager",
-      "description": "Manager"
+      "description": "ProcurementManager"
     }
   ],
   "attributes": [],
   "role-templates": [
     {
       "name": "Vendor",
-      "description": "Supplier",
+      "description": "generated",
       "scope-references": [
         "$XSAPPNAME.Vendor"
       ],
@@ -23,7 +21,7 @@
     },
     {
       "name": "ProcurementManager",
-      "description": "Manager",
+      "description": "generated",
       "scope-references": [
         "$XSAPPNAME.ProcurementManager"
       ],

@@ -4,6 +4,9 @@ install:
 update:
 	npm update
 	npm update --package-lock-only
+	
+security:	
+	cds compile srv/ --to xsuaa > xs-security.json
 
 build:
 	cds build
@@ -18,5 +21,5 @@ deploy-hana:
 serve:
 	cds serve
 
-run:
-	cds run	
+watch:
+	cds watch
