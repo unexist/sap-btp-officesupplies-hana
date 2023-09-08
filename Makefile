@@ -6,6 +6,7 @@ update:
 	npm update --package-lock-only
 
 build:
+	cds build
 	mbt build -t gen --mtar mta.tar
 
 deploy:
@@ -16,3 +17,6 @@ deploy-hana:
 
 serve:
 	cds serve
+
+run:
+	cds run	

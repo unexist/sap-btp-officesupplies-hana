@@ -1,5 +1,5 @@
 ### Submit Suppliers
-GET http://localhost:4005/catalog/Suppliers?$top=2
+GET http://localhost:4004/catalog/Suppliers?$top=2
 
 ### Browse Products
 GET http://localhost:4004/catalog/Products?$top=2
